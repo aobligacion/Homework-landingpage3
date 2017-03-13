@@ -1,0 +1,100 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+* {
+  box-sizing: border-box; /* allows us to tell the browser how to measure our elements.  Now the width property includes content, padding, and border, instead of just the content*/
+}
+
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+#container {
+  width: 960px;
+  margin: 0 auto;
+}
+/*body {
+  color: #f0efef;
+  font-size: 13px;
+  line-height: 1.4;
+  color: #606161;
+  font-family: Open Sans;
+  font-weight: 300;
+}*/
+#button-header {
+  border-radius: 5px;
+  border: none;
+  color: #033048;
+  padding: 15px 54px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 900;
+  background-color: #FFFF00;
+  margin-left: 700px;
+  margin-top: 100px;
+}
+
+.landing-section {
+  background-image: url(../images/header_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1000px;
+}
+
+.landing-section h1 {
+  font-size: 50px;
+  font-weight: 900;
+  font-family: sans-serif;
+  color: white;
+  margin-left: 100px;
+  padding-top: 40px;
+}
+
+.landing-section p {
+  text-align: center;
+  font-weight: 600;
+  font-size: 40px;
+  font-family: sans-serif;
+  color: white;
+  margin-top: 200px;
+}
+
+.benefits h1 {
+  font-weight: 600px;
+  font-family: sans-serif;
+  font-size: 32px;
+  color: #033048;
+  margin-left: 100px;
+}
+
+.benefits p,ul {
+  color: #033048;
+  font-weight: 100;
+  font-size: 18px;
+  font-family: sans-serif;
+  margin-left: 100px;
+}
+
+.benefits ul {
+  margin-left: 100px;
+  list-style-type: disc;
+}
