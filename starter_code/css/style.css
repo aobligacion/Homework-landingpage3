@@ -31,11 +31,11 @@ Developer @GA in NYC
   margin: 0 auto;
 }
 /*body {
-  color: #f0efef;
+  color: #f0efef;s
   font-size: 13px;
   line-height: 1.4;
   color: #606161;
-  font-family: Open Sans;
+  font-family: "Open Sans";
   font-weight: 300;
 }*/
 #button-header {
@@ -48,7 +48,7 @@ Developer @GA in NYC
   display: inline-block;
   font-size: 16px;
   font-weight: 900;
-  background-color: #FFFF00;
+  background-color: #f9e42e;
   margin-left: 700px;
   margin-top: 100px;
 }
@@ -97,4 +97,45 @@ Developer @GA in NYC
 .benefits ul {
   margin-left: 100px;
   list-style-type: disc;
+}
+
+.citation {
+  background-image: url(../images/testimonial_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  max-width: none;
+  color: white;
+  font-style: italic;
+  font-size: 24px;
+  font-weight: 100;
+  text-align: center;
+  padding-top: 100px;
+}
+
+#button-footer {
+  border-radius: 5px;
+  border: none;
+  color: white;
+  padding: 15px 54px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 900;
+  background-color: #033048;
+  margin-left: 500px;
+  margin-top: 30px;
+}
+
+.second-button {
+  background: #f9e42e;
+  height: 100px;
+}
+
+footer {
+  background-color: #121212;
+  height: 500px;
+  color: white;
+  text-align: center;
 }
