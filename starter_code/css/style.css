@@ -1,43 +1,35 @@
-/*
-Project Name: Blank Template
-Client: Your Client
-Author: Your Name
-Developer @GA in NYC
-*/
 
-
-/******************************************
-/* SETUP
-/*******************************************/
-* {
-  box-sizing: border-box; /* allows us to tell the browser how to measure our elements.  Now the width property includes content, padding, and border, instead of just the content*/
-}
-
-
-/******************************************
-/* BASE STYLES
-/*******************************************/
-
-
-
-
-/******************************************
-/* LAYOUT
-/*******************************************/
-
-/* Center the container */
 #container {
   width: 960px;
   margin: 0 auto;
 }
-/*body {
-  color: #f0efef;s
-  font-size: 13px;
-  line-height: 1.4;
-  color: #606161;
-  font-family: "Open Sans";
-  font-weight: 300;
-}*/
+
+.landing-section {
+  background-image: url(../images/header_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+}
+
+.landing-section h1 {
+  font-size: 24px;
+  font-weight: 900;
+  font-family: 'Open Sans';
+  color: white;
+  margin-left: 100px;
+  padding-top: 40px;
+  margin-top: 0;
+}
+
+.landing-section p {
+  text-align: center;
+  font-weight: 600;
+  font-size: 24px;
+  font-family: 'Open Sans';
+  color: white;
+  margin-top: 100px;
+}
+
 #button-header {
   border-radius: 5px;
   border: none;
@@ -46,51 +38,32 @@ Developer @GA in NYC
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 900;
   background-color: #f9e42e;
-  margin-left: 700px;
-  margin-top: 100px;
-}
-
-.landing-section {
-  background-image: url(../images/header_bg.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 1000px;
-}
-
-.landing-section h1 {
-  font-size: 50px;
-  font-weight: 900;
-  font-family: sans-serif;
-  color: white;
-  margin-left: 100px;
-  padding-top: 40px;
-}
-
-.landing-section p {
-  text-align: center;
-  font-weight: 600;
-  font-size: 40px;
-  font-family: sans-serif;
-  color: white;
-  margin-top: 200px;
+  margin-left: 400px;
+  margin-top: 80px;
+  font-family: 'Open Sans';
 }
 
 .benefits h1 {
-  font-weight: 600px;
-  font-family: sans-serif;
-  font-size: 32px;
+  font-weight: 600;
+  font-family: 'Open Sans';
+  font-size: 20px;
   color: #033048;
   margin-left: 100px;
+  margin-top: 40px;
+}
+
+.benefits li {
+  margin-top: 20px;
 }
 
 .benefits p,ul {
   color: #033048;
   font-weight: 100;
-  font-size: 18px;
-  font-family: sans-serif;
+  font-size: 13px;
+  font-family: 'Open Sans';
   margin-left: 100px;
 }
 
@@ -104,13 +77,13 @@ Developer @GA in NYC
   background-repeat: no-repeat;
   background-size: cover;
   height: 400px;
-  max-width: none;
   color: white;
   font-style: italic;
   font-size: 24px;
   font-weight: 100;
   text-align: center;
   padding-top: 100px;
+  width: 100%;
 }
 
 #button-footer {
@@ -127,10 +100,10 @@ Developer @GA in NYC
   margin-left: 500px;
   margin-top: 30px;
 }
-
 .second-button {
   background: #f9e42e;
   height: 100px;
+  margin-top: 0;
 }
 
 footer {
@@ -138,4 +111,7 @@ footer {
   height: 500px;
   color: white;
   text-align: center;
+}
+footer h4 {
+  margin-top: 0;
 }
