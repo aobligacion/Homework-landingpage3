@@ -45,13 +45,6 @@ Developer @GA in NYC
 /* BASE STYLES
 /*******************************************/
 
-body {
-     color: #000;
-     font-size: 12px;
-     line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
-}
-
 
 /******************************************
 /* LAYOUT
@@ -63,9 +56,14 @@ body {
   margin: auto;
 }
 
+body {
+  background-color: #f0efef;
+}
+
 header {
 background-color: #033048;
 height: 100px;
+clear: both;
 }
 header h1 {
   color: white;
@@ -76,13 +74,192 @@ header h1 {
 }
 nav {
   float: right;
-  margin-right: 100px;
+  margin-right: 50px;
+  font-size: 24px;
+  font-family: 'Open Sans', sans-serif;
 }
 a {
-  padding-right: 50px;
+  padding-right: 30px;
+  color: #f9e42e;
+  text-decoration: none;
 }
-footer {
 
+a:link {
+  color: #f9e42e;
+}
+
+
+a:hover {
+  color: white;
+}
+
+
+#main-content {
+  width: 100%;
+  position: relative;
+}
+
+.block {
+  display: inline-block;
+}
+
+#article-one {
+  width: 700px;
+}
+
+.first-article h1 {
+  color: #033048;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 50px;
+}
+
+.first-article p {
+  color: #033048;
+  font-size: 24px;
+  font-weight: 300;
+  font-family: 'Open Sans',sans-serif;
+}
+
+.first-article a {
+  color: #033048;
+  font-size: 24px;
+  font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
+  float: right;
+  padding-top: 20px;
+
+}
+
+.first-article img {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.second-article h1 {
+  color: #033048;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 100px;
+  padding-top: 50px;
+  border-top: 1px solid black;
+}
+
+.second-article p {
+  color: #033048;
+  font-size: 24px;
+  font-weight: 300;
+  font-family: 'Open Sans',sans-serif;
+}
+
+.second-article a {
+  color: #033048;
+  font-size: 24px;
+  font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
+  float: right;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+
+.second-article img {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#columns {
+  width: 220px;
+  height: 100%;
+  position: absolute;
+  top: 50px;
+  right: 0;
+}
+
+.first-column {
+  width: 240px;
+  margin-top: 0;
+  display: inline-block;
+}
+
+.first-column h2 {
+  font-size: 32px;
+  font-weight: 800;
+  color: #033048;
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.first-column a {
+  font-size: 24px;
+  font-weight: 100;
+  color: #033048;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.first-column p {
+  font-size: 22px;
+  font-weight: 100;
+  color: #033048;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.second-column {
+  font-size: 32px;
+  font-weight: 800;
+  color: #033048;
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#button-footer {
+  border-radius: 5px;
+  border: none;
+  color: white;
+  padding: 15px 54px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 900;
+  background-color: #033048;
+  margin-left: 350px;
+  margin-top: 30px;
+
+}
+.second-button {
+  background: #f9e42e;
+  height: 100px;
+  margin-top: 0;
+  width: 100%;
+}
+
+footer {
+  background-color: #121212;
+  height: 300px;
+  color: white;
+  text-align: center;
+  clear: both;
+}
+.social-icon h4 {
+  margin-top: 0;
+  padding-top: 40px;
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.social-icon a {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.social-icon p {
+  font-size: 9px;
+  font-weight: 600;
+  padding-top: 10px;
 }
 
 
