@@ -115,12 +115,14 @@ a:hover {
   margin-top: 50px;
 }
 
-.first-article p {
+.first-article p, div {
   color: #033048;
   font-size: 24px;
   font-weight: 300;
   font-family: 'Open Sans',sans-serif;
 }
+
+
 
 .first-article a {
   color: #033048;
@@ -261,6 +263,7 @@ footer {
   font-weight: 600;
   padding-top: 10px;
 }
+
 
 
 
