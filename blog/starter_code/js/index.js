@@ -66,8 +66,8 @@ $("#hide-text2").click(function(event){
 });
 });
 
-$('#button-footer').click(function(event){
-  event.preventDefault();
-});
+//$('#button-footer').click(function(event){
+  //event.preventDefault();
+//});
 
 });
